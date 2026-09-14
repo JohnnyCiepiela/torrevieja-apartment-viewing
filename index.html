@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Torrevieja Apartament</title>
+  <meta
+    name="description"
+    content="A beautiful apartment available for your next stay."
+  >
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <main class="site">
+
+    <!-- ==================== PHOTOS ==================== -->
+    <section class="section photos-section" aria-labelledby="photos-title">
+      <h2 id="photos">Przyjazny apartament w centrum Torrevieja</h2>
+      <h1 id="photos-title" class="visually-hidden">Apartment photos</h1>
+
+      <div class="photo-grid">
+        <!-- Replace these with your own images -->
+        <img src="assets/photos/1.jpg" alt="Apartment interior">
+        <img src="assets/photos/2.jpg" alt="Apartment interior">
+        <img src="assets/photos/3.jpg" alt="Apartment interior">
+        <!-- <img src="assets/photos/4.jpg" alt="Apartment interior"> -->
+        <img src="assets/photos/5.jpg" alt="Apartment interior">
+        <!-- <img src="assets/photos/6.jpg" alt="Apartment interior"> -->
+        <!-- <img src="assets/photos/7.jpg" alt="Apartment interior"> -->
+        <!-- <img src="assets/photos/8.jpg" alt="Apartment interior"> -->
+      </div>
+    </section>
+
+
+    <!-- ==================== VIDEO ==================== -->
+    <section class="section video-section" aria-labelledby="video-title">
+      <h2 id="video-title">Tu będzie film</h2>
+
+      <div class="media-frame video-frame">
+        <!--
+          OPTION A — local video:
+          Put your video in assets/video/apartment.mp4
+          and keep the <video> element below.
+
+          OPTION B — embedded video:
+          Replace the <video> element with an iframe from
+          YouTube, Vimeo, etc.
+        -->
+
+        <video
+          controls
+          playsinline
+          preload="metadata"
+          poster=""
+        >
+          <source src="assets/video/apartment.mp4" type="video/mp4">
+          Your browser does not support HTML5 video.
+        </video>
+
+        <!-- Example iframe:
+        <iframe
+          src="YOUR_VIDEO_EMBED_URL"
+          title="Apartment video"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen>
+        </iframe>
+        -->
+      </div>
+    </section>
+
+
+    <!-- ==================== GAUSSIAN SPLAT ==================== -->
+    <section class="section splat-section" aria-labelledby="splat-title">
+      <h2 id="splat-title">Tu będzie model 3D mieszkania</h2>
+
+      <div class="media-frame splat-frame">
+
+        <!--
+          ==========================================================
+          GAUSSIAN SPLAT EMBED
+          ==========================================================
+
+          Replace this placeholder with the embed supplied by your
+          Gaussian splat viewer.
+
+          For example, if the provider gives you an iframe:
+
+          <iframe
+            src="YOUR_GAUSSIAN_SPLAT_URL"
+            title="3D apartment tour"
+            allowfullscreen>
+          </iframe>
+
+          If the provider gives you custom HTML/JS, paste it here.
+          ==========================================================
+        -->
+
+        <div class="splat-placeholder">
+          <span>Gaussian Splat will be here</span>
+          <!-- <small>Replace this area with your 3D apartment embed</small> -->
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
